@@ -3,7 +3,7 @@
 :root{
     --cor-do-texto: #876;
     --cor-de-fundo:#244;
-    --parágrafo:#947;
+    --titulo:rgb(16, 47, 47);
 }
 
 body{
@@ -27,4 +27,12 @@ header{
 .container img{
     width: 27%;
     height: auto;
+}
+
+h2{
+    color:var(--titulo);
+}
+
+.texto{
+    margin-left: 09px;
 }
